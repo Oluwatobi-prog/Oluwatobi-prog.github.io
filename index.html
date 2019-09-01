@@ -18,8 +18,8 @@
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
 			grid-auto-rows: repeat(5, 1fr);
-			color: black;
-			background-color: white;
+			color: white;
+			background-color: #000066;
 			grid-row-gap: 0rem;
 			grid-column-gap: 0rem;
 			align-items: end;
@@ -27,18 +27,18 @@
 		.box {
 			display: grid;
 			align-items: center;
-			border: 1px solid black;
+			border: 1px solid white;
 			text-align: center;
 			cursor: pointer;
 			height: 3rem;
-			background: linear-gradient(to top right, black 0%, white 100%);
+			background: linear-gradient(to top right, #00ffcc 0%, #0033cc 100%);
 			font-weight: bold;		
 			line-height: 1.0rem;
 			transform: translateY(-50%);
 			border-radius: 5px;
 		}
 		.N20 {
-			background: white;
+			background: #000066;
 		}
 		.box:hover {
 			background: black;
@@ -48,7 +48,7 @@
 			width: 120%;
 			margin: 10px;	
 			border-radius: 2px;
-			border: 12px solid white;
+			border: 10px solid #000066;
 			border-radius: 10px;	
 		}
 	
@@ -68,7 +68,7 @@
 			content: "placeholder";
 		}
 		#calculated-values {
-			font-size: 2.2rem;
+			font-size: 2.0rem;
 			font-weight: bold
 		}
 	</style>
@@ -85,7 +85,7 @@
 
 		<div class="calculator-panel">
 			<div class="numbers">	
-				<div class="box 1">C</div>
+				<div class="box 1">±</div>
 				<div class="box 2">(</div>
 				<div class="box 3">)</div>
 				<div class="box 4">/</div>
